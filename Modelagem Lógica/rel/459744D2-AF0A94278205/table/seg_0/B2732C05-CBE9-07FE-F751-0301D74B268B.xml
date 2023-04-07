@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2732C05-CBE9-07FE-F751-0301D74B268B" name="TB_ACS_USER">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:34:47 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_user_id_user_pk" id="23EC6709-E9DF-DFE9-2E81-34D8C380F2A0">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:35:36 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_user" id="E19908F0-B132-6218-A9FD-CF2E0FCB853D">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:36:05 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_user" id="BB9D54DC-7675-AB78-836F-FE39B687C062">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:37:25 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço_user" id="C95C54A8-EB04-F124-E8E0-461B9AFEA238">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:37:25 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_user" id="EB85EFA5-5E7D-CD74-1148-484A3DA4053C">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:09:18 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_user" id="4910D5C1-4E79-B9F2-4289-92FE522FC6E9">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:09:18 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7FCD091-91FB-D8A7-8F65-20B9905AE193" name="TB_USER_PK">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:37:25 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23EC6709-E9DF-DFE9-2E81-34D8C380F2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

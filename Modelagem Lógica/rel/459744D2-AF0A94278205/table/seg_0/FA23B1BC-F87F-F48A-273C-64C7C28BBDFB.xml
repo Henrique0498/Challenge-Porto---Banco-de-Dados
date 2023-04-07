@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA23B1BC-F87F-F48A-273C-64C7C28BBDFB" name="TB_ACS_ORDEMSERVICO">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:37:57 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_ordemservico_id_ocorrencia_pk" id="7F001A78-2B3A-4F67-22BE-E54DC32C5A66">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:42:00 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_ocorrencia" id="A5A38941-9D23-9B84-960E-0F81EF3BB888">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:42:34 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tempo_resposta" id="93F00ACD-A435-4761-91E3-AFAACF17B4D8">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:44:28 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_ocorrencia" id="8C41D2A2-B8A2-C562-CCD0-7649FE387D8E">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:07:06 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao_ordemservico" id="52667480-E32E-2C59-D217-55B65FC98FE9">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:07:06 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02B1EDF7-90FB-AE83-D5A4-B80179570926" name="TB_ORDEM_SERVICO_PK">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:44:34 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F001A78-2B3A-4F67-22BE-E54DC32C5A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

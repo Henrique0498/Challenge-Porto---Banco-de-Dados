@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A51C64B-10B5-E3EC-C306-CB63F9A52525" name="TB_ACS_MODELO">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:54:29 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_modelo_id_tipoveiculo_pk" id="E84205A7-ECD8-9031-04E3-33EF0F347941">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:55:59 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo_veiculo" id="8052BB35-9940-BA21-0AED-501194F3EB7E">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:55:59 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria_veiculo" id="7CB4174E-8671-CDA9-8281-624FF747ECD3">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:58:02 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dimensoes_veiculo" id="A18B306D-5660-9D31-4AAD-F0F993D8D70A">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:19:32 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AF8B99A-1349-4367-F137-D263A6A10825" name="TB_ACS_MODELO_PK">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:00:34 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E84205A7-ECD8-9031-04E3-33EF0F347941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

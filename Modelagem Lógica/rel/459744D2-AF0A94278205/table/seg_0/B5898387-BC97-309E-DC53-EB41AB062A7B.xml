@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5898387-BC97-309E-DC53-EB41AB062A7B" name="TB_ACS_MODAL">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:40:11 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modal" id="E0E0C179-F3E1-19E1-94CA-89F89D5EA010">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:40:43 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_modal" id="E75814C5-D1D8-E588-A5FF-1DACA2073C27">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:41:09 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade_modal" id="CCF8FC6E-B2C8-B0EB-0DF0-15B1A3ADC7AA">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:14:09 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade_intermodal" id="AD7C6F2C-658F-16C2-1E88-BFAC1453CF94">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-07 00:17:49 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="676CCCF2-F853-3E53-C677-ACAAFC7527E3" name="TB_MODAL_PK">
+<createdBy>lucka</createdBy>
+<createdTime>2023-04-06 23:41:15 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0E0C179-F3E1-19E1-94CA-89F89D5EA010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
