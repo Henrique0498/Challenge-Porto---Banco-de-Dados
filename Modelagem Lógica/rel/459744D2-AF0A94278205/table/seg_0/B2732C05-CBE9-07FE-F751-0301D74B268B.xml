@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tb_user_id_user_pk" id="23EC6709-E9DF-DFE9-2E81-34D8C380F2A0">
+<Column name="id_user" id="23EC6709-E9DF-DFE9-2E81-34D8C380F2A0">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-06 23:35:36 UTC</createdTime>
 <ownerDesignName>Modelagem Lógica</ownerDesignName>
@@ -78,7 +78,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E7FCD091-91FB-D8A7-8F65-20B9905AE193" name="TB_USER_PK">
+<ind_PK_UK id="E7FCD091-91FB-D8A7-8F65-20B9905AE193" name="tb_user_id_user_pk">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-06 23:37:25 UTC</createdTime>
 <ownerDesignName>Modelagem Lógica</ownerDesignName>

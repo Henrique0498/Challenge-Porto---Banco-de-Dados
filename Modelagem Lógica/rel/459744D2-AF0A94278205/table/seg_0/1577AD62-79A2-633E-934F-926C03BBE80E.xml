@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tb_apolice_id_apolice_pk" id="DC9B8823-C452-01FF-F7EA-FBDA6071ECCF">
+<Column name="id_apolice" id="DC9B8823-C452-01FF-F7EA-FBDA6071ECCF">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-07 00:02:58 UTC</createdTime>
 <ownerDesignName>Modelagem Lógica</ownerDesignName>
@@ -29,9 +29,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="placa_veiculo_apolice" id="9515F38E-A2EB-F593-FDCC-86E5F38D1442">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-13 00:39:32 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_veiculo_apolice" id="8A967090-03C1-DC8F-CC86-AFC70A2B066B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-13 01:03:23 UTC</createdTime>
+<ownerDesignName>Modelagem Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="620F0CDD-AA94-25EF-0689-8ECF8559812F" name="TB_APOLICE_PK">
+<ind_PK_UK id="620F0CDD-AA94-25EF-0689-8ECF8559812F" name="tb_apolice_id_apolice_pk">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-07 00:02:58 UTC</createdTime>
 <ownerDesignName>Modelagem Lógica</ownerDesignName>

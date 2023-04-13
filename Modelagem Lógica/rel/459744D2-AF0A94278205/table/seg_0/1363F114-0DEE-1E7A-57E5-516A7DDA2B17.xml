@@ -52,18 +52,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="placa_veiculo" id="C3F4B924-6C0C-23B1-BB19-CE466DC724C3">
-<createdBy>lucka</createdBy>
-<createdTime>2023-04-06 23:51:09 UTC</createdTime>
-<ownerDesignName>Modelagem Lógica</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="tipo_combustivel" id="CF13DAF2-CF6E-B4C7-E42F-266EE1633F59">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-06 23:51:09 UTC</createdTime>
@@ -102,7 +90,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="10D12827-D54D-F65D-353F-B1BAFD8E1092" name="TB_VEICULO_PK">
+<ind_PK_UK id="10D12827-D54D-F65D-353F-B1BAFD8E1092" name="tb_veiculo_id_veiculo_pk">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-06 23:44:03 UTC</createdTime>
 <ownerDesignName>Modelagem Lógica</ownerDesignName>

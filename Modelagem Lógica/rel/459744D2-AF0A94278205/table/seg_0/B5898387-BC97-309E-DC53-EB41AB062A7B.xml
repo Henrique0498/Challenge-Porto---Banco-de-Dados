@@ -55,7 +55,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="676CCCF2-F853-3E53-C677-ACAAFC7527E3" name="TB_MODAL_PK">
+<ind_PK_UK id="676CCCF2-F853-3E53-C677-ACAAFC7527E3" name="tb_modal_id_modal_pk">
 <createdBy>lucka</createdBy>
 <createdTime>2023-04-06 23:41:15 UTC</createdTime>
 <ownerDesignName>Modelagem Lógica</ownerDesignName>
